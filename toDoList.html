@@ -1,0 +1,49 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="toDoList.css">
+    <title>Document</title>
+</head>
+<body>
+    <nav id="navBar">
+        <h1 id="header">TO-DO LIST</h1>
+    </nav>
+
+
+
+    <div id="mainToDoListContainer">
+
+        <div class="taskCounter-container">
+            <nav id="task-counter">
+                Completed: <span id="count-completed">0</span> |
+                Uncompleted: <span id="count-uncompleted">0</span>
+            </nav>
+            <hr>
+            <br>
+        </div>
+
+        
+    <div id="toDoList-Form">
+        <input
+        type="text"
+        class="input-item"
+        name="input-task"
+        id="input-task"
+        placeholder="Add Task"
+        />
+
+        <button id="inputBtn" onclick="addTask()">Add</button>
+    </div>
+
+        <h3>Task List</h3>
+        <ul id="list-container"></ul>
+    </div>
+
+
+
+<script src="toDoList.js"></script>
+</body>
+</html>
+
+  

@@ -1,0 +1,70 @@
+body { 
+  margin: 0;
+  padding: 0;
+  background-color:#E3EED4;
+  font-family: Arial, sans-serif;
+  text-align: center;
+}
+
+#header{
+  color:#E3EED4;
+}
+
+#mainToDoListContainer {
+  background-color: #3F4F40;
+  width: 400px;
+  margin: 0 auto;
+  padding: 20px;
+  color:#E3EED4;
+  border-radius: 15px;
+  border: none;
+  outline: none;
+  margin-top: 50px;
+  text-align: center;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+  margin-top: 20px;
+  text-align:left;
+
+}
+
+li {
+  border: 1px solid white;
+  border-radius: 5px;
+  margin-bottom: 10px;
+  padding: 10px;
+  margin-top: 10px;
+}
+
+.completed {
+  text-decoration: line-through;
+  color: gray;
+  border: 1px solid gray;
+}
+
+#navBar{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 1rem;
+  padding-left: 8px;
+  background-color: #3F4F40;
+  height: 8vh;
+}
+
+.editBtn, .deleteBtn {
+  float: right;
+  color:white;
+  cursor: pointer;
+  margin: 3px 5px;
+  border: none;
+  padding: 3px 5px;
+  background: none;
+} 
+
+#task-counter{
+  margin-bottom: 15px;
+}
